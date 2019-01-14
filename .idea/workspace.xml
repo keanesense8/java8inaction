@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7171c208-efd7-4d34-b1a1-e6c44a22b647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8inaction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8inaction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,21 +29,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="173">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/keane/java8/action/optional/OptionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="46">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1503#1504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +94,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/keane/java8/action/optional/OptionalTest.java" />
       </list>
     </option>
   </component>
@@ -99,13 +111,17 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,12 +183,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="optional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java8inaction" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8inaction" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java8inaction" type="b2602c69:ProjectViewProjectNode" />
@@ -182,14 +202,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547277071449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547473730430" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -207,13 +225,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamTest.streamMaxMinTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.keane.java8.action.Main" />
+  <component name="RunManager" selected="JUnit.OptionalTest.optionTest">
+    <configuration name="OptionalTest.optionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8inaction" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keane.java8.action.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keane.java8.action.optional" />
+      <option name="MAIN_CLASS_NAME" value="com.keane.java8.action.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="optionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,10 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OptionalTest.optionTest" />
+        <item itemvalue="JUnit.StreamTest.StreamIterateTest" />
         <item itemvalue="JUnit.StreamTest.streamMaxMinTest" />
         <item itemvalue="JUnit.StreamTest.streamTestSum" />
         <item itemvalue="JUnit.StreamTest.streamFlatMapTest" />
-        <item itemvalue="JUnit.StreamTest.StreamIterateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,38 +327,51 @@
       <option name="presentableId" value="Default" />
       <updated>1547213440442</updated>
       <workItem from="1547213445450" duration="1171000" />
-      <workItem from="1547214969844" duration="2571000" />
+      <workItem from="1547214969844" duration="2729000" />
+      <workItem from="1547356788272" duration="2948000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamTest_StreamIterateTest - 2019.01.11 at 22h 00m 08s.xml">
+    <history-entry file="StreamTest_StreamIterateTest - 2019.01.13 at 13h 26m 53s.xml">
       <configuration name="StreamTest.StreamIterateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_StreamIterateTest - 2019.01.11 at 22h 01m 22s.xml">
-      <configuration name="StreamTest.StreamIterateTest" configurationId="JUnit" />
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 04m 36s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_streamFlatMapTest - 2019.01.12 at 14h 45m 13s.xml">
-      <configuration name="StreamTest.streamFlatMapTest" configurationId="JUnit" />
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 04m 56s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_streamFlatMapTest - 2019.01.12 at 14h 45m 46s.xml">
-      <configuration name="StreamTest.streamFlatMapTest" configurationId="JUnit" />
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 16m 23s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_streamTestSum - 2019.01.12 at 14h 52m 04s.xml">
-      <configuration name="StreamTest.streamTestSum" configurationId="JUnit" />
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 18m 20s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_streamMaxMinTest - 2019.01.12 at 15h 08m 21s.xml">
-      <configuration name="StreamTest.streamMaxMinTest" configurationId="JUnit" />
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 18m 52s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 23m 43s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 25m 08s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 25m 52s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_optionTest - 2019.01.14 at 21h 33m 47s.xml">
+      <configuration name="OptionalTest.optionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3742000" />
+    <option name="totallyTimeSpent" value="6848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -394,14 +425,47 @@
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/keane/java8/action/stream/StreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
+          <folding>
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/keane/java8/action/optional/OptionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
